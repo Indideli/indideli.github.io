@@ -9,7 +9,7 @@ body {
   margin-bottom: 60px; /* Margin bottom by footer height */
  font-family: 'Source Sans Pro', sans-serif;
  color:#706262;
- overflow-y: hidden;;
+ overflow: hidden;;
 }
 .footer {
   position: absolute;
