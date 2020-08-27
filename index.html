@@ -1,120 +1,136 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Indideli | An Online Grocery Platform</title>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+ <title>Indideli | An Online Grocery Platform</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
 
 
-	<!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
-	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+  <!-- Custom styles for this template -->
+  <link href="css/coming-soon.css" rel="stylesheet">
+  <style type="text/css">
+    
+    .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #cd9557;
+    opacity: .9;
+    z-index: 1;
+    background: url('./img/img_bg_1.jpg');
+    background-size: 2200px 1000px;
+    background-repeat: no-repeat;
+}
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+.logo{
+   font-family: 'Dosis', sans-serif;
+   font-size: 120px;
+   font-weight: bold;
+   color:white;
+}
 
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">
+.submit{
+background-color: #f5be01;border:1px solid white;
+color:white;
 
-	<div id="fh5co-container" class="js-fullheight">
-		<div class="countdown-wrap js-fullheight">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="display-t js-fullheight">
-						<div class="display-tc animate-box">
-							<nav class="fh5co-nav" role="navigation">
-								<div id="fh5co-logo" ><a  style="font-size: 100px" href="./">Indideli</a></div>
-							</nav>
-							<h1>We Are Coming Soon!</h1>
+}
+ .submit:hover{
+background-color: #f5be01;border:2px solid #ef5e32;
+color:white;
 
-							 
-							<div class="row">
-								<div class="col-md-12 desc">
-									<h2>Our webiste is opening soon. <br> Get notified by email when it's ready!</h2>
-									<form class="form-inline" id="fh5co-header-subscribe">
-										<div class="col-md-12 col-md-offset-0">
-											<div class="form-group">
-												<input type="text" class="form-control" id="email" placeholder="Get notify by email">
-												<button type="submit" class="btn btn-primary">Subscribe</button>
-											</div>
-										</div>
-									</form>
-									<ul class="fh5co-social-icons">
-										<li><a href="#"><i class="icon-twitter-with-circle"></i></a></li>
-										<li><a href="#"><i class="icon-facebook-with-circle"></i></a></li>
-										<li><a href="#"><i class="icon-linkedin-with-circle"></i></a></li>
-										<li><a href="#"><i class="icon-dribbble-with-circle"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bg-cover js-fullheight" style="background-image:url(images/img_bg_1.jpg);background-size: 1000px 900px;">
-			
-		</div>
-	</div>
-	</div>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+}
+.social-icons ul > li > a {
+    display: block;
+    color: white;
+    background-color: #f5be01;
+    border-radius: 100%;
+    font-size: 2rem;
+    line-height: 4rem;
+    height: 4rem;
+    width: 4rem;
+}
 
-	<!-- Count Down -->
-	<script src="js/simplyCountdown.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+.social-icons ul > li > a:hover {
+    display: block;
+    color: white;
+    background-color: #f5be01;
+    border:2px solid #ef5e32;
+    border-radius: 100%;
+    font-size: 2rem;
+    line-height: 4rem;
+    height: 4rem;
+    width: 4rem;
+}
+  </style>
+</head>
 
-	<script>
-    var d = new Date(new Date().getTime() + 94 * 120 * 120 * 2000);
+<body>
 
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
-    });
+  <div class="overlay"></div>
+  
 
-    //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-        enableUtc: false
-    });
-</script>
+  <div class="masthead">
+    <div class="masthead-bg"></div>
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-12 my-auto">
+          <div class="masthead-content text-white py-5 py-md-0">
+            <div class="mb-3 logo" style="margin-top: -50px;">Indideli</div>
+            <p class="mb-5"><b><i>Our webiste is opening soon.<br>
+Get notified by email when it's ready!</b></i></p>
+            <form>
+            <div class="input-group input-group-newsletter">
+              <input type="email" class="form-control" placeholder="Get notified by email"  aria-describedby="submit-button" style="border:1px solid white;">
+              <div class="input-group-append">
+                <button type='submit' class="btn submit" type="button" id="submit-button" style="">Notify Me!</button>
+              </div>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-	</body>
+  <div class="social-icons">
+    <ul class="list-unstyled text-center mb-0">
+      <li class="list-unstyled-item">
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+ 
+
+</body>
+
 </html>
-
