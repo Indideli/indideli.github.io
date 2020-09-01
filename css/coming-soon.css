@@ -68,18 +68,10 @@ h6 {
   background-color: #f5be01;
   transform: skewY(4deg);
   transform-origin: bottom right;
-  animation: change_background 20s infinite;
+   
 }
  
-
-@keyframes change_background {
-  0%   {background-color:#B34700;}
-  25%  {background-color:#4D4500;}
-  50%  {background-color:#FFA30F;}
-  75%  {background-color:#F06800;}
-  100% {background-color:#a06324;}
-}
-
+ 
 
 .masthead .masthead-content h1 {
   font-size: 2.5rem;
