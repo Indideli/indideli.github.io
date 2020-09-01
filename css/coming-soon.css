@@ -104,6 +104,7 @@ h6 {
     height: 100%;
     min-height: 0;
     width: 40.5rem;
+
     padding-bottom: 0;
   }
   .masthead .masthead-bg {
@@ -160,6 +161,7 @@ h6 {
     right: 2.5rem;
     bottom: 2rem;
     width: auto;
+
   }
   .social-icons ul {
     margin-top: 0;
@@ -199,3 +201,5 @@ h6 {
 .input {
   font-weight: 300 !important;
 }
+
+
