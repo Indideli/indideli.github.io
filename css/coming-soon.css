@@ -30,7 +30,7 @@ h6 {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    /*background: url('./img/img_bg_1.jpg') #002E66 no-repeat center center scroll;*/
+    background: url('./img/img_bg_1.jpg') #f5be0196 no-repeat center center scroll;
     background-size: cover;
   }
   body video {
@@ -201,5 +201,4 @@ h6 {
 .input {
   font-weight: 300 !important;
 }
-
 
