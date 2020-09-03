@@ -20,6 +20,7 @@
   <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
 
@@ -34,13 +35,19 @@
     left: 30%;
     height: 100%;
     width: 70%;
-    background-color: #cd9557;
+    background-color: #f6ba00;
     opacity: .99; 
 
     z-index: 1;
     background: url('./img/img_bg_1.jpg');
-    background-size:1100px 750px;
+    background-size:1100px 760px;
     background-repeat: no-repeat;
+}
+
+.tagline{
+
+ font-size: 22px;font-family: 'Bad Script', cursive; font-weight: lighter;
+ text-align: right;
 }
 
 .logo{
@@ -51,7 +58,7 @@
 }
 
 .submit{
-background-color: #f5be01;border:1px solid white;
+background-color: #f6ba00;border:1px solid white;
 color:white;
  
 
@@ -65,7 +72,7 @@ color:white;
 .social-icons ul > li > a {
     display: block;
     color: white;
-    background-color: #f5be01;
+    background-color: #f6ba00;
     border-radius: 100%;
     font-size: 1.5rem;
     line-height: 3rem;
@@ -96,24 +103,29 @@ color:white;
     left: 0;
     height: 55%;
     width: 100%;
-    background-color: red;
+    background-color: white;
     opacity: .99; 
 
     z-index: 1;
     background: url(./img/img_bg_1.jpg);;
-    background-size:500px 500px;
+    background-size:500px 520px;
     background-repeat: no-repeat;
+    }
+
+.tagline{
+  text-align: center;
 }
 
 }
 
   </style>
+ 
 </head>
 
-<body>
+<body style="background: url('./img/img_bg_1.jpg');">
 
   <div class="overlay"></div>
-  
+ 
 
   <div class="masthead">
     <div class="masthead-bg"></div>
@@ -121,17 +133,17 @@ color:white;
       <div class="row h-100">
         <div class="col-12 my-auto">
           <div class="masthead-content text-white py-5 py-md-0">
-            <div class="mb-3 logo text-center" style="margin-top: -50px;">Indideli </div>
-<p  class="text-center" style="margin-top:-55px;font-size: 20px;font-family: 'Bad Script', cursive; font-weight: lighter;;">  your one-click supermarket</p>
+            <img src="./img/logo.jpg" class="mx-auto d-block" style="max-width: 350px;"/>
+<p  class="tagline">  your one-click supermarket</p>
              
-          
+ <br><br>
             <form class="center-block">
                 <p class="mb-5" style="margin-bottom: 2rem!important;"> We are coming soon.<br>
 Get notified by email when it's ready!</p>
             <div class="input-group input-group-newsletter">
-              <input type="email" class="form-control" placeholder="Get notified by email"  aria-describedby="submit-button" style="border:1px solid white;">
+              <input type="email" class="form-control" placeholder="Get notified by email"  aria-describedby="submit-button" style="font-size:12px;border:1px solid white;">
               <div class="input-group-append">
-                <button type='submit' class="btn submit" type="button" id="submit-button" style="">Notify Me!</button>
+                <button type='submit' class="btn submit" type="button" id="submit-button" style="font-size: 10px;font-weight: bold;">Notify Me!</button>
               </div>
             </div>
           </form>
