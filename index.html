@@ -189,7 +189,7 @@ Get notified by email when it's ready!</p>
 
 document.getElementById("register").innerHTML = "";
 
-var str = "http://indideli.com/index.html";
+var str = window.location.href;
 var res = str.substring(str.length-10, str.length);
 if(res==='index.html'){
      document.getElementById("email").disabled = true;
