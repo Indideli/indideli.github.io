@@ -187,14 +187,17 @@ Get notified by email when it's ready!</p>
  
 <script>
 
-var url = new URL(window.location.href);
-
 document.getElementById("register").innerHTML = "";
 
-if(url.pathname==='index.html'){
+var str = "http://indideli.com/index.html";
+var res = str.substring(str.length-10, str.length);
+if(res==='index.html'){
      document.getElementById("email").disabled = true;
       document.getElementById("demo").innerHTML = "&nbsp;&nbsp;&nbsp;<b>Email has been captured successfully.</b>";
-}
+
+  }
+
+ 
 
 </script>
 </body>
