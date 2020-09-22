@@ -187,10 +187,9 @@ Get notified by email when it's ready!</p>
  
 <script>
 
-const url = new URL(
-  window.location.href
-);
- document.getElementById("register").innerHTML = "";
+var url = new URL(window.location.href);
+
+document.getElementById("register").innerHTML = "";
 
 if(url.pathname==='index.html'){
      document.getElementById("email").disabled = true;
